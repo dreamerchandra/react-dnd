@@ -21,11 +21,14 @@ interface CardProps {
   Header: ReturnType<typeof CardHeader>;
   Body: ReactNode;
   className?: string;
+  isDragging?: boolean;
 }
 
-export const Card: FC<CardProps> = ({ Header, Body, className }) => {
+export const Card: FC<CardProps> = ({ Header, Body, className, isDragging }) => {
   return (
-    <div className={`${style.card} ${className}`}>
+    <div
+      className={`${style.card} ${className} ${isDragging && style.dragging}`}
+    >
       {Header}
       {Body}
     </div>
