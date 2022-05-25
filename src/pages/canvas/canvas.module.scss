@@ -1,0 +1,13 @@
+.rankList {
+  display: flex;
+  gap: var(--spacing-05);
+  align-content: space-between;
+  align-items: stretch;
+  justify-content: space-around;
+  > div {
+    align-self: stretch;
+    justify-self: stretch;
+    width: 100%;
+    margin: 0 var(--spacing-04);
+  }
+}

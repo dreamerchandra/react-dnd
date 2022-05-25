@@ -1,0 +1,27 @@
+:root {
+  --spacing-01: 0.125rem;
+  --spacing-02: 0.25rem;
+  --spacing-03: 0.5rem;
+  --spacing-04: 0.75rem;
+  --spacing-05: 1rem;
+  --spacing-06: 1.25rem;
+  --spacing-07: 1.5rem;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
